@@ -1,0 +1,248 @@
+@font-face {
+   font-family: 'Graphik LCG';
+   src: url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
+     url('../fonts/GraphikLCG-Medium.woff') format('woff');
+   font-display: swap;
+   font-weight: 500;
+   font-style: normal;
+ }
+
+ @font-face {
+   font-family: 'Gilroy';
+   src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+     url('../fonts/Gilroy-Regular.woff') format('woff');
+   font-display: swap;
+   font-weight: normal;
+   font-style: normal;
+ }
+
+ @font-face {
+   font-family: 'Gilroy';
+   src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+     url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+   font-display: swap;
+   font-weight: 800;
+   font-style: normal;
+ }
+
+ @font-face {
+   font-family: 'Gilroy';
+   src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+     url('../fonts/Gilroy-Medium.woff') format('woff');
+   font-display: swap;
+   font-weight: 500;
+   font-style: normal;
+ }
+
+ * {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+ }
+
+ body {
+   margin: 0;
+   font-family: 'Gilroy', sans-serif;
+ }
+
+ .wave {
+  background-image: url("../img/wave.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 600px;
+}
+
+ a {
+   color: inherit;
+   text-decoration: none;
+ }
+
+ table, td, th {
+   border: 1px solid #000
+ }
+
+ table {
+   border-collapse: collapse;
+   margin-top: 100px;
+ }
+
+ th, td {
+   padding: 5px
+ }
+
+ tfoot {
+    text-align: center
+ }
+
+.main-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: #222020;
+ }
+
+ .logo {
+   margin-bottom: 50px;
+ }
+
+.tittle {
+   color: #fff;
+   font-family: 'Graphik LCG', sans-serif;
+   margin-bottom: 30px;
+ }
+
+.download-btn {
+   padding: 20px;
+   color: #fff;
+   background: #2f1ce4;
+   border: solid 3px #2f1ce4;
+ }
+
+.more-btn {
+   padding: 20px;
+   color: #fff;
+   background: transparent;
+   border: solid 3px #fff;
+ }
+
+.container {
+   width: 1180px;
+   margin: 0 auto;
+   padding: 30px 0;
+ }
+
+.number {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 48px;
+  color: #eaeaea;
+}
+
+.cards-list {
+  width: 1020px;
+  margin: 80px auto;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.card {
+    display: inline-block;
+    width: 480px;
+    min-height: 500px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    vertical-align: middle;
+    position: relative;
+    box-shadow: 0 0 20px 3px rgba(83, 83, 83, .3);
+}
+
+.card-text {
+  min-height: 325px;
+}
+
+.right {
+  margin-right: 0;
+}
+
+.back-link {
+  padding-left: 30px;
+  background-image: url("../img/return.png");
+  background-position: left center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+ }
+
+.general-tittle {
+   margin-top: 100px;
+   padding-left: 100px;
+   font-size: 48px;
+   color: #222020;
+ }
+
+.other-tittle {
+  padding-left: 180px;
+  font-size: 36px;
+  color: #2f1ce4;
+  margin: 100px 0 25px 0;
+ }
+
+.list {
+   padding-left: 200px;
+   font-size: 18px;
+ }
+
+ .decoration-none {
+  list-style: none;
+ }
+
+ .link-more {
+  margin: 10px 30px;
+  display: inline-block;
+  color: #2f1ce4;
+  font-weight: 500;
+ }
+
+ .text {
+  padding-left: 180px;
+  margin-bottom: 20px;
+}
+
+.images {
+  padding-left: 200px;
+  text-align: center;
+  display: inline-block;
+  margin: 50px 0;
+}
+
+.more-button {
+  text-align: center;
+  color: #2f1ce4;
+  border: solid 3px #2f1ce4;
+  width: 280px;
+  padding: 27.5px 0;
+  display: inline-block;
+}
+
+.card-cover {
+  min-height: 175px;
+}
+
+.cover_1{
+  background-image: url("../img/card-cover_1.jpg");
+}
+
+.cover_2{
+  background-image: url("../img/card-cover_2.jpg");
+}
+
+.cover_3{
+  background-image: url("../img/card-cover_3.jpg");
+}
+
+.cover_4{
+  background-image: url("../img/card-cover_4.jpg");
+}
+
+.card-tittle {
+  margin-left: 50px;
+  color: #2f1ce4;
+  font-size: 36px;
+  font-weight: 900;
+  padding: 15px 0;
+}
+
+.card-list {
+  margin-left: 50px;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #222020;
+}
+
+.card-list li {
+  padding: 10px 0;
+}
